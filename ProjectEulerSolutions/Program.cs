@@ -1,6 +1,7 @@
 ﻿using System;
 using Problem_1;
 using Problem_2;
+using Problem_3;
 
 namespace ProjectEulerSolutions
 {
@@ -8,9 +9,10 @@ namespace ProjectEulerSolutions
     {
         static void Main(string[] args)
         {
-            EvenFibonacciNumbers fibonacciNumbers = new EvenFibonacciNumbers();
+            LargestPrimeFactor primeNumber = new LargestPrimeFactor();
             
-            Console.WriteLine(fibonacciNumbers.SumOfEvenFibonacciNumbers());
+            
+            Console.WriteLine(primeNumber.LargestPrimeNumber(600851475143));
             Console.ReadLine();
         }
     }
