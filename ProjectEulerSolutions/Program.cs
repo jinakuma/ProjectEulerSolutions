@@ -1,10 +1,5 @@
 ﻿using System;
-using Problem_1;
-using Problem_2;
-using Problem_3;
-using Problem_4;
-using Problem_5;
-using Problem_6;
+using Problem_7;
 
 namespace ProjectEulerSolutions
 {
@@ -12,7 +7,7 @@ namespace ProjectEulerSolutions
     {
         static void Main(string[] args)
         {
-            SumSquareDifference.FirstHundredNumbersSumSquareDifference();
+            PrimeNumbers.PrimeNumber10001st();
             Console.ReadLine();
         }
     }
