@@ -1,5 +1,5 @@
 ﻿using System;
-using Problem_7;
+using Problem_8;
 
 namespace ProjectEulerSolutions
 {
@@ -7,7 +7,7 @@ namespace ProjectEulerSolutions
     {
         static void Main(string[] args)
         {
-            PrimeNumbers.PrimeNumber10001st();
+            LargestProductInASeries.LargestProduct();
             Console.ReadLine();
         }
     }

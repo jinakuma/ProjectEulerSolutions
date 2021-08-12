@@ -13,6 +13,7 @@
     <ProjectReference Include="..\Problem_5\Problem_5.csproj" />
     <ProjectReference Include="..\Problem_6\Problem_6.csproj" />
     <ProjectReference Include="..\Problem_7\Problem_7.csproj" />
+    <ProjectReference Include="..\Problem_8\Problem_8.csproj" />
   </ItemGroup>
 
 </Project>
