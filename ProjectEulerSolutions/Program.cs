@@ -1,5 +1,5 @@
 ﻿using System;
-using Problem_8;
+using Problem_9;
 
 namespace ProjectEulerSolutions
 {
@@ -7,7 +7,8 @@ namespace ProjectEulerSolutions
     {
         static void Main(string[] args)
         {
-            LargestProductInASeries.LargestProduct();
+            Console.WriteLine(SpecialPythagoreanTriplet.ProductOfPythagoreanTriplet(1000));
+            ;
             Console.ReadLine();
         }
     }
